@@ -5,7 +5,7 @@ app = Flask(__name__)
 items = [
     {
         'name': 'Table',
-        'price': 5000
+        'price': 5500
     },
     {
         'name': 'Chair',
@@ -26,7 +26,7 @@ def fetch_items():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=False)
+    app.run(host='0.0.0.0', debug=True)
  
 #from waitress import serve
     #serve(app, host="0.0.0.0", port=8080)
